@@ -2,7 +2,7 @@
 cask "ghtkn" do
   desc "Create GitHub App User Access Token for secure local development"
   homepage "https://github.com/suzuki-shunsuke/ghtkn"
-  version "0.1.2"
+  version "0.1.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,23 +12,23 @@ cask "ghtkn" do
 
   on_macos do
     on_intel do
-      url "https://github.com/suzuki-shunsuke/ghtkn/releases/download/v0.1.2/ghtkn_darwin_amd64.tar.gz"
-      sha256 "d6583fdecbc3b365dbb5f176ebeb64f6b0c3e46b699259cf0973549d5887adf3"
+      url "https://github.com/suzuki-shunsuke/ghtkn/releases/download/v0.1.3/ghtkn_darwin_amd64.tar.gz"
+      sha256 "add542f2434f7e7ca8d50bfaae830047f21e2ce182ed6fdc0252da23ddd31439"
     end
     on_arm do
-      url "https://github.com/suzuki-shunsuke/ghtkn/releases/download/v0.1.2/ghtkn_darwin_arm64.tar.gz"
-      sha256 "c7cdca371ead73282c0196a3ffa00c205bd22ab077ff817f739422aac8d593f1"
+      url "https://github.com/suzuki-shunsuke/ghtkn/releases/download/v0.1.3/ghtkn_darwin_arm64.tar.gz"
+      sha256 "9caeb62611fb66958e32013eaba42f57a1d6930fb8954b67cfc26b9adfd7646f"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/suzuki-shunsuke/ghtkn/releases/download/v0.1.2/ghtkn_linux_amd64.tar.gz"
-      sha256 "687b08fe3468cc61c7597b30539f20ffe6896fa2bd61f65fbd7067cf9552b77a"
+      url "https://github.com/suzuki-shunsuke/ghtkn/releases/download/v0.1.3/ghtkn_linux_amd64.tar.gz"
+      sha256 "ddc7c92e42193ca6af65cea0e61713b35d3c4f81db065e40b8c7000fa36e1bc0"
     end
     on_arm do
-      url "https://github.com/suzuki-shunsuke/ghtkn/releases/download/v0.1.2/ghtkn_linux_arm64.tar.gz"
-      sha256 "8e5ef90abc9fe5792a7cb54cefd4a559435a7553c3f7c35eb442c6d572b9a328"
+      url "https://github.com/suzuki-shunsuke/ghtkn/releases/download/v0.1.3/ghtkn_linux_arm64.tar.gz"
+      sha256 "43b7e013543ba6bcdbc4f334eff9c274a2a782a674f679ad0c99b20e815a2daa"
     end
   end
 
